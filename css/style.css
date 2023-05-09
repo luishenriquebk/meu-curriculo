@@ -1,0 +1,115 @@
+/* FONT */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@400;500;700&display=swap');
+
+/* ROOT */
+:root {
+    --clr-black-primary: #333;
+    --clr-black-secondary: #444;
+    --clr-gray: rgb(165, 165, 165);
+    --clr-shadow: rgba(0, 0, 0, 0.3);
+    --clr-success: rgb(3, 142, 3);
+    --clr-delete: rgb(234, 28, 28);
+    --clr-error: rgb(227, 98, 22);
+    --clr-white: #fff;
+    --clr-black: black;
+}
+
+body {
+    background-color: var(--clr-black-primary);
+    color: var(--clr-white);
+}
+
+/* HEADER */
+#header-navbar {
+    background-color: var(--clr-black-secondary);
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 10px 0;
+}
+
+#header-navbar h1 {
+    color: var(--clr-error);
+}
+
+#header-navbar span {
+    color: var(--clr-white);
+}
+
+#header-navbar ul li {
+    margin: 0 10px;
+}
+
+#header-navbar ul li a {
+    color: var(--clr-white);
+}
+
+#header-navbar ul li a:hover {
+    border-bottom: 1px solid var(--clr-white);
+}
+
+/* SECTION INTRO */
+#section-intro {
+    animation: animacaoLetras .7s forwards;
+    margin: 5rem 0;
+    justify-content: space-around;
+}
+
+#section-intro #message-intro {
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+#section-intro #message-intro h2 {
+    font-size: 1.5rem;
+}
+
+#section-intro #message-intro h1 {
+    font-size: 2rem;
+}
+
+#section-intro #message-intro h1::after {
+    content: '|';
+    margin-left: 5px;
+    opacity: 1;
+    animation: efeitoTeclado .5s infinite;
+}
+
+#section-intro #message-intro #aboutMeIntro{
+    width: 50%;
+}
+
+#section-intro #message-intro #button-download-cv {
+    background-color: none;
+    border: 1px solid var(--clr-white);
+    border-radius: 4px;
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+#section-intro #message-intro #button-download-cv:hover {
+    background-color: 1px solid var(--clr-gray);
+    color: var(--clr-white);
+}
+
+/* KEYFRAME */
+@keyframes efeitoTeclado {
+    from {
+        opacity: 1;
+    }
+    
+    to {
+        opacity: 0;
+    }
+}
+
+@keyframes animacaoLetras {
+    from {
+        opacity: 0;
+        transform: translate3d(0, -60px, 0);
+    }
+    
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
