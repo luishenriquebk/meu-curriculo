@@ -9,33 +9,232 @@
     <link rel="stylesheet" href="../css/style.css">
     <link rel="stylesheet" href="../css/general.css">
     <link rel="stylesheet" href="../css/utilities.css">
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
     <!-- LINK FONTAWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kit.fontawesome.com/3ad31a7665.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- HEADER -->
-    <header class="container flex" id="header-navbar">
-        <h1>Luis <span>Henrique</span></h1>
-        <nav>
-            <ul class="flex">
-                <li><a href="#home">Início</a></li>
-                <li><a href="#aboutme">Sobre mim</a></li>
-                <li><a href="#portfolio">Portfólio</a></li>
-                <li><a href="#services">Serviços</a></li>
-                <li><a href="#contact">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <!-- SECTION INTRO -->
-    <section class="container flex" id="section-intro">
-        <div id="message-intro" class="flex">
-            <h2>Olá! Meu nome é Luis, e sou</h2>
-            <h1 class="digitando">Web Developer e Data Analyst</h1>
-            <p>Este é meu site para você me conhecer melhor.</p>
-            <button id="button-download-cv">Baixar CV</button>
+    <header class="header"> 
+
+        <div class="header container">
+            <h1>Luis Henrique</h1>
+            <h2>Eu sou <span>Dev Front-End</span> & <span>Data Analystic</span></h2>
+
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#home" class="home">Início</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#resumo">Resumo</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+            </nav>
+
+            <div class="social-links">
+                <a href="#" class="instagram"><i class="fa-brands fa-instagram fa-lg"></i></a>
+                <a href="#" class="linkedin"><i class="fa-brands fa-linkedin fa-lg"></i></a>
+            </div>
         </div>
-        <img src="" alt="foto-ilustrativa">
+
+    </header> 
+    <!-- HEADER -->
+
+    <!-- HEADER -->
+    <section class="about-me">
+
+        <div class="about-me container">
+
+            <div class="section-title">
+                <h2>SOBRE MIM</h2>
+                <h1>CONHEÇA MAIS SOBRE MIM</h1>
+            </div>
+
+            <div class="about-me row">
+                <div class="my-image">
+                    <h2>Minha foto</h2>
+                </div>
+                <div class="about-me info">
+                    <h2>Dev Front-End & Data Analystic</h2>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur 
+                        adipisicing elit. Modi, sequi commodi 
+                        quas porro exercitationem, est id rerum 
+                        fugit velit ipsa quaerat molestias repellat 
+                        harum. Veritatis in dignissimos accusamus 
+                        impedit soluta!
+                    </p>
+                    <div class="about-me data">
+                        <div class="column-1">
+                            <div><i class="fa-regular fa-chevron-right fa-lg"></i>Aniversário: 20 Julho 1998</div>
+                            <div><i class="fa-regular fa-chevron-right fa-lg"></i>Telefone: (27) 99312-6594</div>
+                            <div><i class="fa-regular fa-chevron-right fa-lg"></i>Cidade: Montes Claros</div>
+                        </div>
+                        <div class="column-2">
+                            <div><i class="fa-regular fa-chevron-right fa-lg"></i>Idade: 25 anos</div>
+                            <div><i class="fa-regular fa-chevron-right fa-lg"></i>Cargo: Estagiário</div>
+                            <div><i class="fa-regular fa-chevron-right fa-lg"></i>Email: lhkamma@gmail.com</div>
+                        </div>
+                    </div>
+                    <div class="about-me text">
+                        Lorem ipsum, dolor sit amet consectetur 
+                        adipisicing elit. Atque aut officia amet, 
+                        animi qui porro harum expedita, deserunt 
+                        mollitia ducimus numquam voluptatibus 
+                        quisquam quos alias provident assumenda 
+                        repudiandae, pariatur quia.
+                    </div>
+                </div>
+            </div>
+
+            <h2>HABILIDADES</h2>
+            <div class="areas">
+                <div class="area-front-end">
+                    <p class="title text-center">FRONT END</p>
+                    <div class="skill">
+                        <div class="name-skill-status">
+                            <p>HTML</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="percentual">PORCENTAGEM HABILIDADE</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name-skill-status">
+                            <p>CSS</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="percentual">PORCENTAGEM HABILIDADE</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name-skill-status">
+                            <p>JAVASCRIPT</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="percentual">PORCENTAGEM HABILIDADE</div>
+                    </div>
+                </div>
+                <div class="area-front-end">
+                    <p class="title text-center">DATA ANALYSTIC</p>
+                    <div class="skill">
+                        <div class="name-skill-status">
+                            <p>HTML</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="percentual">PORCENTAGEM HABILIDADE</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name-skill-status">
+                            <p>CSS</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="percentual">PORCENTAGEM HABILIDADE</div>
+                    </div>
+                    <div class="skill">
+                        <div class="name-skill-status">
+                            <p>JAVASCRIPT</p>
+                            <p>70%</p>
+                        </div>
+                        <div class="percentual">PORCENTAGEM HABILIDADE</div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>CURSOS</h2>
+            <div class="curses">
+                <div class="front-end-curses">
+                    <p class="title text-center">FRONT END</p>
+                    <div class="all-curses">
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                    </div>
+                </div>
+                <div class="front-end-curses">
+                    <p class="title text-center">DATA ANALYSTIC</p>
+                    <div class="all-curses">
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                    </div>
+                </div>
+            </div>
+
+            <h2>FORMAÇÕES</h2>
+            <div class="format">
+                <div class="front-end-format">
+                    <p class="title text-center">FRONT END</p>
+                    <div class="all-format">
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                    </div>
+                </div>
+                <div class="front-end-format">
+                    <p class="title text-center">DATA ANALYSTIC</p>
+                    <div class="all-format">
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                        <div class="curse-1"><img src="" alt="">img<p class="name">Excel</p></div>
+                    </div>
+                </div>
+                <div class="university-format">
+                    <div class="unimontes">
+                        <h3 class="title">Unimontes</h3>
+                        <div class="university-info">
+                            <h4>ENGENHARIA DE SISTEMAS <span>- Bacharelado</span></h4>
+                            <p>4º PERÍODO (Cursando)</p>
+                        </div>
+                    </div>
+                    <div class="anhanguera">
+                        <h3 class="title">Anhanguera</h3>
+                        <div class="university-info">
+                            <h4>ARQUITETURA DE DADOS <span>- Tecnólogo</span></h4>
+                            <p>2º PERÍODO (Cursando)</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
 
     <script src="../js/main.js"></script>
