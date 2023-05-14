@@ -19,7 +19,6 @@ body {
 .header .container {
     padding: 30px;
     background-color: #2d2d2d;
-    box-shadow: rgba(5, 5, 5, 1);
 }
 
 .header .container h1, h2 {
@@ -192,3 +191,32 @@ body {
     justify-content: start;
     gap: 10px;
 }
+
+/* RESUME */
+.resume .container {
+    padding: 30px;
+    background-color: #2d2d2d;
+}
+
+.sumary, .professional-experience {
+    background-color: #1E1E1E;
+    padding: 10px 20px;
+}
+
+.resume .columns {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.experiences {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.colum-2 ul li {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
