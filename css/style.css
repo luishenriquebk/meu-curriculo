@@ -12,7 +12,7 @@ body {
     font-family: "Open Sans", sans-serif;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin: 50px 0;
     gap: 80px;
 }
 
@@ -218,5 +218,77 @@ body {
 .colum-2 ul li {
     list-style-type: disc;
     margin-left: 20px;
+}
+
+/* PORTFOLIO */
+.projects {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.portfolio .container {
+    background-color: #2d2d2d;
+    padding: 30px;
+}
+
+.projects .all-projects{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.all-projects .project-1 {
+    text-align: center;
+    border: 1px solid #006fff;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+.projects .front-end-projects, 
+.projects .data-analystic-projects {
+    background-color: #1E1E1E;
+    padding: 10px 20px;
+}
+
+.projects .all-projects {
+    padding: 20px 30px 40px;
+}
+
+/* CONTACT ME */
+.contact-me {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contact-me .container {
+    background-color: #2d2d2d;
+    padding: 30px;
+}
+
+.all-contacts {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.all-contacts .contact-1 {
+    text-align: center;
+    border: 1px solid #006fff;
+    border-radius: 10px;
+    padding: 20px 30px;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.my-contacts .contact-1 {
+    background-color: #1E1E1E;
+}
+
+.adress {
+    text-align: left;
 }
 
