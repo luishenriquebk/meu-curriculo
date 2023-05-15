@@ -1,0 +1,183 @@
+/* GRID */
+.grid {
+    display: grid;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-2-1 {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+}
+.grid-3 {
+    display: grid;
+    grid-template-columns: 35% 65% ;
+}
+
+.grid-4 {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+/* FLEX */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-column-start {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.flex-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+/* GAP */
+.gap-1 {
+    gap: 20px;
+}
+
+.gap-2 {
+    gap: 40px;
+}
+
+.gap-3 {
+    gap: 80px;
+}
+
+
+/* MARGIN */
+.margin-5 {
+    margin: 50px 0;
+}
+
+
+/* CONTAINER */
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 150px;
+    gap: 20px;
+    color: #fff;
+}
+
+
+/* BORDER */
+.border-bottom-blue {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #006fff;
+}
+
+.border-blue-radius {
+    border: 1px solid #006fff;
+    border-radius: 10px;
+}
+
+
+/* TEXT */
+/* FONT-SIZE */
+.text-xxl {
+    font-family: "Poppins", sans-serif;
+    font-size: 3.5rem;
+}
+
+.text-xl {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.5rem;
+}
+
+.text-bg {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.75rem;
+}
+
+/* FONT-FAMILY */
+.font-1 {
+    font-family: "Open Sans", sans-serif;
+}
+
+.font-2 {
+    font-family: "Poppins", sans-serif;
+}
+
+/* TEXT-COLOR */
+.text-white {
+    color: #fff;
+} 
+
+.text-blue {
+    color: #006fff;
+}
+
+/* TEXT-WEIGHT */
+.text-weight {
+    font-weight: 600;
+}
+
+
+/* BACKGROUND */
+.container-bg {
+    background-color: #2d2d2d;
+}
+
+.bg-2 {
+    background-color: #222;
+}
+
+.bg-3 {
+    background-color: #1E1E1E;
+}
+
+
+/* PADDING */
+.pd-50 {
+    padding: 50px;
+}
+
+.pd-10-20 {
+    padding: 10px 20px;
+}
+
+.pd-20-30-40 {
+    padding: 20px 30px 40px;
+}
+
+.pd-20-30 {
+    padding: 20px 30px;
+}
+
+.container-pd {
+    padding: 30px;
+}
+
+/* PADDING-BOTTOM */
+.pd-bottom-2 {
+    padding-bottom: 5px;
+}
+
