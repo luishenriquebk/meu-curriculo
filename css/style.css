@@ -45,4 +45,97 @@
     margin-left: 20px;
 }
 
+/* MEDIA-SCREEN */
+@media (max-width: 1200px) {
 
+    #navbar-ul,
+    #social-links {
+        justify-content: center;
+    } 
+
+    #name-title, 
+    #title-info {
+        text-align: center;
+    }
+
+    #name-title {
+        font-size: 3rem;
+    }
+
+    #title-info {
+        font-size: 1.75rem;
+    }
+
+    #front-end-curses, 
+    #data-curses, 
+    #front-end-formats, 
+    #data-formats,
+    #front-end-projects,
+    #data-projects {
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+
+    #front-end-projects,
+    #data-projects, 
+    #about-me-text {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media (max-width: 1000px) {
+
+    #resume-columns,
+    #all-contacts, 
+    #universitys {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media (max-width: 860px) {
+    #name-title {
+        font-size: 2rem;
+    }
+
+    #title-section {
+        font-size: 1.5rem;
+    }
+
+    #title-info {
+        font-size: 1.25rem;
+    }
+
+    #navbar-ul {
+        font-size: 1rem;
+
+    }
+
+    #front-end-curses, 
+    #data-curses, 
+    #front-end-formats, 
+    #data-formats,
+    #front-end-projects,
+    #data-projects, 
+    #all-contacts,
+    #universitys {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+}
+
+@media (max-width: 760px) {
+
+    #navbar-ul {
+        gap: 15px;
+    }
+    
+    #home,
+    #about,
+    #resume,
+    #portfolio,
+    #contact {
+        font-size: 14px;
+    }
+}
