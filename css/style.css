@@ -33,6 +33,14 @@
     margin-right: 10px;
 }
 
+.progress-bar {
+    width: 100%;
+}
+
+::-webkit-progress-value  {
+    background-color: #006fff;
+}
+
 .name-skill, .all-curses div, .all-format div {
     display: flex;
     justify-content: start;
@@ -76,12 +84,13 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-
     #front-end-projects,
-    #data-projects, 
+    #data-projects,
+    #about-me-skills, 
     #about-me-text {
         grid-template-columns: repeat(1, 1fr);
     }
+
 }
 
 @media (max-width: 1000px) {
@@ -90,6 +99,10 @@
     #all-contacts, 
     #universitys {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    #contact-info {
+        justify-content: start;
     }
 
 }
