@@ -1,3 +1,13 @@
+/* HOVER */
+.hover {
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+
+.hover:hover {
+    transform: scale(0.98);
+}
+
 /* ALIGN-SELF */
 .align-self-center {
     align-self: center;

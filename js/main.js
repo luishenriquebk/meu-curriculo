@@ -1,13 +1,11 @@
-
-const messageIntro = (elemento) => {
-    const arrTexto = elemento.innerHTML.split('');
-    elemento.innerHTML = '';
-    arrTexto.forEach((letra, i) => {
-        setTimeout(() => {
-            elemento.innerHTML += letra;
-        }, 75 * i)
-    })
-}
-
-const titulo = document.querySelector('.digitando');
-messageIntro(titulo);
+// document.getElementById('scroll-link').addEventListener('click', function(event) {
+//     event.preventDefault();
+//     const targetSection = document.getElementById('#about-me');
+//     const targetOffsetTop = targetSection.offsetTop;
+  
+//     window.scrollTo({
+//       top: targetOffsetTop,
+//       behavior: 'smooth'
+//     });
+//   });
+  

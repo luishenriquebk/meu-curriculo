@@ -10,6 +10,7 @@
 body {
     background: rgb(30,30,30);
     background: linear-gradient(180deg, rgba(30,30,30,1) 0%, rgba(45,45,45,1) 10%, rgba(0,111,255,0.6979166666666667) 90%);
+    scroll-behavior: smooth;
 }
 
 a {
@@ -130,16 +131,12 @@ img {
     #title-info {
         font-size: 1.75rem;
     }
-
-    #front-end-curses, 
-    #data-curses, 
-    #front-end-formats, 
-    #data-formats,
+/* 
     #front-end-projects,
     #data-projects {
         grid-template-rows: repeat(2, 1fr);
         grid-template-columns: repeat(2, 1fr);
-    }
+    } */
 
     #front-end-projects,
     #data-projects,
@@ -151,6 +148,12 @@ img {
 
 @media (max-width: 1000px) {
 
+    #front-end-curses, 
+    #data-curses, 
+    #front-end-formats, 
+    #data-formats,
+    #front-end-projects,
+    #data-projects,
     #resume-columns,
     #all-contacts, 
     #universitys {
