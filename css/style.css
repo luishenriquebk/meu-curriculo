@@ -7,6 +7,16 @@
     border: none;
 }
 
+body {
+    background: rgb(30,30,30);
+    background: linear-gradient(180deg, rgba(30,30,30,1) 0%, rgba(45,45,45,1) 10%, rgba(0,111,255,0.6979166666666667) 90%);
+}
+
+a {
+    color: inherit;
+    width: 100%;
+}
+
 .header .social-links a {
     display: flex;
     justify-content: center;
@@ -15,8 +25,8 @@
     height: 40px;
     padding: 10px;
     border-radius: 40px;
-    background: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+    background-color: rgba(255,255,255, 0.1);
 }
 
 .header .navbar ul li a:hover {
@@ -28,6 +38,38 @@
 .about-me .container .section-title h2 {
     font-size: 1.25rem;
 }
+
+.svg {
+    width: 20%;
+}
+
+img {
+    border-radius: 8px;
+    object-fit: cover;
+    object-position: right;
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(255, 255, 255, );
+}
+
+.unimontes {
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.logo-empresa {
+    width: 10%;
+}
+
+.logo-faculdade {
+    width: 15%;
+}
+
+.bg-white {
+    background-color: #fff;
+    color: #222;
+} 
 
 .about-me .data .column-1 i , .column-2 i {
     margin-right: 10px;
@@ -41,20 +83,35 @@
     background-color: #006fff;
 }
 
-.name-skill, .all-curses div, .all-format div {
-    display: flex;
-    justify-content: start;
-    align-items: center;
-    gap: 10px;
-}
-
 .colum-2 ul li {
     list-style-type: disc;
     margin-left: 20px;
 }
 
+.all-contact #contact-info .download-cv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 11px;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.all-contact #contact-info .download-cv:hover {
+    background-color: #004dff;
+}
+
+
+
 /* MEDIA-SCREEN */
 @media (max-width: 1200px) {
+
+    #about-me-text img {
+        display: none;
+    }
 
     #navbar-ul,
     #social-links {
@@ -86,8 +143,7 @@
 
     #front-end-projects,
     #data-projects,
-    #about-me-skills, 
-    #about-me-text {
+    #about-me-skills {
         grid-template-columns: repeat(1, 1fr);
     }
 
@@ -151,4 +207,13 @@
     #contact {
         font-size: 14px;
     }
+}
+
+.svg {
+    width: auto;
+    height: 100px;
+}
+.svg-md {
+    width: auto;
+    height: 75px;
 }

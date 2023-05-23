@@ -1,3 +1,8 @@
+/* ALIGN-SELF */
+.align-self-center {
+    align-self: center;
+    
+}
 /* GRID */
 .grid {
     display: grid;
@@ -63,7 +68,17 @@
     align-items: center;
 }
 
+.flex-center-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* GAP */
+
+.gap-none {
+    gap: none;
+} 
 .gap-1 {
     gap: 20px;
 }
@@ -138,6 +153,12 @@
 .text-bg {
     font-family: "Poppins", sans-serif;
     font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.text-md {
+    font-family: "Poppins", sans-serif;
+    font-size: 1.25rem;
     font-weight: 700;
 }
 
