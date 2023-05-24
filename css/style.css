@@ -40,10 +40,6 @@ a {
     font-size: 1.25rem;
 }
 
-.svg {
-    width: 20%;
-}
-
 img {
     border-radius: 8px;
     object-fit: cover;
@@ -103,6 +99,17 @@ img {
 
 .all-contact #contact-info .download-cv:hover {
     background-color: #004dff;
+}
+
+.btn {
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s ease-in;
+}
+
+.btn:hover {
+    background-color: #006fff;
+    color: #fff;
 }
 
 
@@ -210,13 +217,4 @@ img {
     #contact {
         font-size: 14px;
     }
-}
-
-.svg {
-    width: auto;
-    height: 100px;
-}
-.svg-md {
-    width: auto;
-    height: 75px;
 }

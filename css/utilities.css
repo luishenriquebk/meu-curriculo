@@ -6,6 +6,7 @@
 
 .hover:hover {
     transform: scale(0.98);
+    box-shadow: 3px 5px rgba(0, 0, 0, 0.5);
 }
 
 /* ALIGN-SELF */
@@ -88,7 +89,12 @@
 
 .gap-none {
     gap: none;
-} 
+}
+
+.gap-0 {
+    gap: 10px;
+}
+
 .gap-1 {
     gap: 20px;
 }
@@ -172,6 +178,12 @@
     font-weight: 700;
 }
 
+.text-sm {
+    font-family: "Poppins", sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 /* FONT-FAMILY */
 .font-1 {
     font-family: "Open Sans", sans-serif;
@@ -240,3 +252,23 @@
     color: #006fff;
 }
 
+/* SVG */
+.svg {
+    width: auto;
+    height: 100px;
+}
+
+.svg-md {
+    width: auto;
+    height: 65px;
+}
+
+.svg-sm {
+    width: auto;
+    height: 50px;
+}
+
+/* WIDTH */
+.width-unset {
+    width: unset;
+}
